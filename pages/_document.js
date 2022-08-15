@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const Document = () => {
 	return (
@@ -19,9 +20,12 @@ const Document = () => {
 			</Head>
 			<body>
 				<Header />
-				<main>
+				<main className="fluid-container mx-auto px-4">
 					<Main />
 				</main>
+
+				<Footer />
+
 				<NextScript />
 			</body>
 		</Html>
