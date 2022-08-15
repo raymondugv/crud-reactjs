@@ -3,9 +3,8 @@ const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
 	images: {
-		domains: ["placeimg.com"],
+		domains: ["ui-avatars.com", "via.placeholder.com"],
 	},
 };
 
 module.exports = nextConfig;
-
