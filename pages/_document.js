@@ -1,8 +1,9 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Header from "../components/header";
 
 const Document = () => {
 	return (
-		<Html data-theme="bumblebee">
+		<Html data-theme="night">
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +18,7 @@ const Document = () => {
 				/>
 			</Head>
 			<body>
+				<Header />
 				<main>
 					<Main />
 				</main>
