@@ -4,9 +4,8 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Create Next App</title>
+				<title>Dashboard</title>
 			</Head>
-			<button className="btn">Hello daisyUI</button>
 		</div>
 	);
 }
