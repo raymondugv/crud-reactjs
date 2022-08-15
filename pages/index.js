@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const Home = () => {
+function Home() {
 	return (
 		<>
 			<Head>
@@ -10,6 +10,6 @@ const Home = () => {
 			<h1>Dashboard</h1>
 		</>
 	);
-};
+}
 
 export default Home;

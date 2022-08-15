@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-const Header = () => {
+function Header() {
 	return (
-		<div className="navbar bg-base-100">
+		<div className="navbar bg-gray-100">
 			<div className="flex-1">
 				<a className="btn btn-ghost normal-case text-xl">
 					CRUD Project
@@ -17,9 +17,8 @@ const Header = () => {
 						<div className="w-10 rounded-full">
 							<Image
 								alt="image"
-								src="https://placeimg.com/80/80/people"
-								width={40}
-								height={40}
+								src="https://via.placeholder.com/80"
+								layout="fill"
 							/>
 						</div>
 					</label>
@@ -38,6 +37,6 @@ const Header = () => {
 			</div>
 		</div>
 	);
-};
+}
 
 export default Header;

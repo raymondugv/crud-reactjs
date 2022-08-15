@@ -1,4 +1,4 @@
-const Breadcrumbs = () => {
+function Breadcrumbs() {
 	return (
 		<div className="text-sm breadcrumbs">
 			<ul>
@@ -12,6 +12,6 @@ const Breadcrumbs = () => {
 			</ul>
 		</div>
 	);
-};
+}
 
 export default Breadcrumbs;
