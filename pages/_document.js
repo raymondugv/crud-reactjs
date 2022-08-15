@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Header from "/components/Header";
-import Footer from "/components/footer";
-import Breadcrumbs from "/components/breadcrumbs";
+import Footer from "/components/Footer";
+import Breadcrumbs from "/components/Breadcrumbs";
 import SideMenu from "/components/SideMenu";
 
 const Document = () => {
