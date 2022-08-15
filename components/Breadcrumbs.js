@@ -3,7 +3,7 @@ const Breadcrumbs = () => {
 		<div className="text-sm breadcrumbs">
 			<ul>
 				<li>
-					<a>Home</a>
+					<a>Dashboard</a>
 				</li>
 				<li>
 					<a>Documents</a>
