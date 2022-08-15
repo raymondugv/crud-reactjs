@@ -19,7 +19,10 @@ const Document = () => {
 				/>
 			</Head>
 			<body>
+				<Header />
 				<Main />
+				<Footer />
+
 				<NextScript />
 			</body>
 		</Html>
