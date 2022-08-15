@@ -1,7 +1,7 @@
 import Link from "next/link";
 import MenuItem from "./MenuItem";
 
-function SideMenu() {
+const SideMenu = () => {
 	return (
 		<ul className="menu p-4 overflow-y-auto w-60 bg-gray-100 text-base-content">
 			<li>
@@ -15,6 +15,6 @@ function SideMenu() {
 			</li>
 		</ul>
 	);
-}
+};
 
 export default SideMenu;

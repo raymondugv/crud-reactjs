@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function Header() {
+const Header = () => {
 	return (
 		<div className="navbar bg-gray-100">
 			<div className="flex-1">
@@ -37,6 +37,6 @@ function Header() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default Header;
