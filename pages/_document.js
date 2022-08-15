@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Breadcrumbs from "../components/breadcrumbs";
 
 const Document = () => {
 	return (
@@ -20,8 +21,16 @@ const Document = () => {
 			</Head>
 			<body>
 				<Header />
+
 				<main className="fluid-container mx-auto px-4">
-					<Main />
+					<div className="p-6 pb-16">
+						<div className="flex flex-col-reverse justify-between gap-6 xl:flex-row">
+							<div className="prose w-full max-w-4xl flex-grow">
+								<Breadcrumbs />
+								<Main />
+							</div>
+						</div>
+					</div>
 				</main>
 
 				<Footer />
