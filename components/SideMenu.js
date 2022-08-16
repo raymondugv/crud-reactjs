@@ -8,7 +8,7 @@ const SideMenu = () => {
 				<MenuItem href="/" title="Dashboard" />
 			</li>
 			<li>
-				<MenuItem href="/posts" title="List" />
+				<MenuItem href="/posts" title="Posts" />
 			</li>
 			<li>
 				<MenuItem href="/users" title="Users"></MenuItem>

@@ -14,12 +14,14 @@ const Header = () => {
 						tabIndex="0"
 						className="btn btn-ghost btn-circle avatar"
 					>
-						<div className="w-10 rounded-full">
-							<Image
-								alt="image"
-								src="https://via.placeholder.com/80"
-								layout="fill"
-							/>
+						<div className="avatar">
+							<div className="w-24 rounded-full">
+								<Image
+									alt="avatar"
+									src="https://placeimg.com/192/192/people"
+									layout="fill"
+								/>
+							</div>
 						</div>
 					</label>
 					<ul

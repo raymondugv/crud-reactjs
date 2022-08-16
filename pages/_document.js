@@ -34,7 +34,7 @@ const Document = () => {
 						<div className="drawer-content">
 							<main className="fluid-container mx-auto px-4">
 								<div className="p-4 pb-16">
-									<Breadcrumbs />
+									{/* <Breadcrumbs /> */}
 									<Main />
 								</div>
 							</main>
